@@ -255,3 +255,101 @@ span {
 .copyright {
     padding-top: 5px;
 }
+
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .foot-panel2 u {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        font-size: 0.8rem;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    .nav-search {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .search-select, .search-input, .search-icon {
+        width: 100%;
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+
+    .hero-msg {
+        font-size: 0.75rem;
+        width: 95%;
+    }
+
+    .box {
+        height: auto;
+        padding: 10px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .foot-panel1, .foot-panel4 {
+        font-size: 0.65rem;
+    }
+}
